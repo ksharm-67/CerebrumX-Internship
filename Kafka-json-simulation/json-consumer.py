@@ -10,7 +10,7 @@ consumer = KafkaConsumer(
     value_deserializer=lambda v: json.loads(v.decode('utf-8'))
 )
 
-#Reads the json files until stopped
+#Reads the json files until stopped by user
 if __name__ == "__main__":
     try:
         print("Listening for messages on topic 'logs'...")
