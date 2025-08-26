@@ -1,0 +1,72 @@
+[
+{
+  "vehicle_id": "V001",
+  "ignition": "on",
+  "speed": 45,
+  "location": {"longitude": -112.074, "latitude": 33.448},
+  "timestamp": "2025-08-26T22:00:00Z"
+},
+{
+  "vehicle_id": "V002",
+  "ignition": "on",
+  "speed": 90,
+  "location": {"longitude": 12.091, "latitude": -18.442},
+  "timestamp": "2025-07-12T14:05:08Z"
+},
+{
+  "vehicle_id": "V003",
+  "ignition": "off",
+  "speed": 0,
+  "location": {"longitude": 0.074, "latitude": 9.161},
+  "timestamp": "2025-02-14T01:19:22Z"
+},
+{
+  "vehicle_id": "V004",
+  "ignition": "on",
+  "speed": 67,
+  "location": {"longitude": -155.072, "latitude": -19.166},
+  "timestamp": "2025-05-25T21:40:01Z"
+},
+{
+  "vehicle_id": "V005",
+  "ignition": "on",
+  "speed": 11,
+  "location": {"longitude": 179.990, "latitude": -89.999},
+  "timestamp": "2025-01-26T18:50:00Z"
+},
+{
+  "vehicle_id": "V006",
+  "ignition": "off",
+  "speed": 0,
+  "location": {"longitude": 4.003, "latitude": -66.581},
+  "timestamp": "2025-08-09T15:23:19Z"
+},
+{
+  "vehicle_id": "V007",
+  "ignition": "on",
+  "speed": 32,
+  "location": {"longitude": -52.014, "latitude": 84.448},
+  "timestamp": "2025-08-26T22:00:00Z"
+},
+{
+  "vehicle_id": "V008",
+  "ignition": "on",
+  "speed": 50,
+  "location": {"longitude": 63.334, "latitude": 63.334},
+  "timestamp": "2025-08-24T22:00:00Z"
+},
+{
+  "vehicle_id": "V009",
+  "ignition": "on",
+  "speed": 101,
+  "location": {"longitude": 112.074, "latitude": -33.448},
+  "timestamp": "2025-08-26T22:00:00Z"
+},
+{
+  "vehicle_id": "V010",
+  "ignition": "on",
+  "speed": 77,
+  "location": {"longitude": -111.774, "latitude": -33.448},
+  "timestamp": "2025-06-30T22:00:00Z"
+}
+]
