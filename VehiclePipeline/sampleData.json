@@ -63,10 +63,38 @@
   "timestamp": "2025-08-26T22:00:00Z"
 },
 {
-  "vehicle_id": "V010",
+  "vehicle_id": "V011",
+  "ignition": "off",
+  "speed": 0,
+  "location": {"longitude": -90.824, "latitude": -16.556},
+  "timestamp": "2025-03-21T10:53:56Z"
+},
+{
+  "vehicle_id": "V012",
+  "ignition": "on",
+  "speed": 54,
+  "location": {"longitude": 110.447, "latitude": 16.213},
+  "timestamp": "2025-02-28T14:20:20Z"
+},
+{
+  "vehicle_id": "V013",
+  "ignition": "on",
+  "speed": 49,
+  "location": {"longitude": -111.774, "latitude": -33.448},
+  "timestamp": "2025-06-30T22:00:05Z"
+},
+{
+  "vehicle_id": "V014",
   "ignition": "on",
   "speed": 77,
-  "location": {"longitude": -111.774, "latitude": -33.448},
-  "timestamp": "2025-06-30T22:00:00Z"
+  "location": {"longitude": 102.201, "latitude": -80.207},
+  "timestamp": "2025-05-25T01:01:01Z"
+},
+{
+  "vehicle_id": "V015",
+  "ignition": "on",
+  "speed": 6,
+  "location": {"longitude": 178.871, "latitude": 45.713},
+  "timestamp": "2025-08-26T19:08:21Z"
 }
 ]
