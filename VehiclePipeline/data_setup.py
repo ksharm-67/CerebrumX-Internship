@@ -27,7 +27,7 @@ try:
     with open("geofences.json", "r") as g:
         reg = json.load(g)
         print(reg)
-        db.geofences.insert_many(reg)
+        db["geofences"].insert_many(reg)
         
 except Exception as ex:
     print(f"Error: {ex}")
