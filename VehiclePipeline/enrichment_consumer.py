@@ -50,4 +50,6 @@ for message in consumer:
         pprint(dat)
     except Exception as e:
         print(f"Error: {e}")
+    finally:
+        enriched_producer.flush()
                                     
