@@ -19,11 +19,12 @@ maxLong = -111.8897
 def generateDriver(i: int):
     speed = fake.random_int(min=0, max=100)
     return {
-        "vehicle_id": "V0" + str(i) if i < 10 else "V" + str(i), "timestamp": str(datetime.now()),
-                       "latitude": fake.pyfloat(min_value = minLat, max_value = maxLat, right_digits=6),
-                       "longitude": fake.pyfloat(min_value = minLong, max_value = maxLong, right_digits=6),
-                       "speed": speed,
-                       "engine": 0 if speed == 0 else 1
+        "vehicle_id": "V0" + str(i) if i < 10 else "V" + str(i),
+        "timestamp": str(datetime.now()),
+        "latitude": fake.pyfloat(min_value = minLat, max_value = maxLat, right_digits=6),
+        "longitude": fake.pyfloat(min_value = minLong, max_value = maxLong, right_digits=6),
+        "speed": speed,
+        "engine": 0 if speed == 0 else 1
     }
     
 try:
